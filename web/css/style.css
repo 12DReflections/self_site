@@ -1216,12 +1216,31 @@ body { font-family: sans-serif; }
 
 .grid-sizer,
 .grid-item {
-  width: 20%;
+  background: #ffffff;
+  width: 100%;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #ffffff;
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 
 
-.grid-item {
+/*.grid-item {
   height: 120px;
   float: left;
   background: #D26;
@@ -1229,24 +1248,94 @@ body { font-family: sans-serif; }
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
 }
-.grid-item.mining_simulation {
-  width: 20%;
-  height: 200px;
+*/.grid-item.mining_simulation {
+  width: 400px;
+  height: 220px;
   background-image: url('../images/actr/actr_mining_simulation.png');
   background-size: 100%;
   background-repeat: no-repeat;
 
   float: left;
-/*  background: #D26;
-*/
-/*  border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.5);
-*/  border-radius: 5px;
+  border-radius: 5px;
 }
 
-.grid-item--width2 { width:  40%; }
+.grid-item.actr_scenic {
+  width: 300px;
+  background-image: url('../images/actr/actr_scenic.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  float: left;
+  border-radius: 5px;
+}
+
+.grid-item.news_article {
+  width: 500px;
+  height: 480px;
+  background-image: url('../images/actr/RMIT_news_article.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: right;
+  border-radius: 5px;
+}
+
+.grid-item.camera_calibration {
+  width: 400px;
+  height: 300px;
+  background-image: url('../images/neomatix/camera_calibration.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: right;
+  border-radius: 5px;
+}
+
+
+.grid-item.corner_detection {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/neomatix/corner_detection.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: right;
+  border-radius: 5px;
+}
+
+.grid-item.nn_results {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/neomatix/nn_results.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  border-radius: 5px;
+}
+
+.grid-item.office_morning_pic {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/neomatix/office_morning_pic.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  border-radius: 5px;
+}
+
+.grid-item.reactr_module {
+  width: 400px;
+  height: 300px;
+  background-image: url('../images/actr/reactr_module.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  float: left;
+  border-radius: 5px;
+}
+
+
+/*.grid-item--width2 { width:  40%; }
 .grid-item--width3 { width:  60%; }
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
+*/
