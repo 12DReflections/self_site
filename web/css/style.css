@@ -1238,6 +1238,23 @@ body { font-family: sans-serif; }
   clear: both;
 }
 
+.grid-item {
+  background-position:center;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+} 
+.grid-item:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2); /* IE 9 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */ 
+} 
 
 
 /*.grid-item {
@@ -1251,7 +1268,7 @@ body { font-family: sans-serif; }
 */.grid-item.mining_simulation {
   width: 340px;
   height: 160px;
-  background-image: url('../images/actr/actr_simulation_3.png');
+  background-image: url('../images/actr/actr_mining_simulation.png');
   background-size: 100%;
   background-repeat: no-repeat;
   float: none;
