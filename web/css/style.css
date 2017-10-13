@@ -1123,7 +1123,7 @@ input[type="submit"]:hover{
 		margin-top: 20px;
 	}
 }
-@media (max-width:320px) {
+@media (max-width:340px) {
 	.b-part1, .b-part2, .b-part3, .b-part4 {
 		height: 140px;
 	}
@@ -1216,7 +1216,7 @@ body { font-family: sans-serif; }
 
 .grid-sizer,
 .grid-item {
-  background: #ffffff;
+  background: #aaaaaa;
   width: 100%;
 }
 
@@ -1249,87 +1249,156 @@ body { font-family: sans-serif; }
   border-radius: 5px;
 }
 */.grid-item.mining_simulation {
-  width: 400px;
-  height: 220px;
-  background-image: url('../images/actr/actr_mining_simulation.png');
+  width: 340px;
+  height: 160px;
+  background-image: url('../images/actr/actr_simulation_3.png');
   background-size: 100%;
   background-repeat: no-repeat;
-
-  float: left;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
 
 .grid-item.actr_scenic {
-  width: 300px;
+  width: 340px;
+  height: 160px;
   background-image: url('../images/actr/actr_scenic.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
-
-  float: left;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
 
 .grid-item.news_article {
-  width: 500px;
-  height: 480px;
+  width: 340px;
+  height: 330px;
   background-image: url('../images/actr/RMIT_news_article.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  float: right;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
 
 .grid-item.camera_calibration {
-  width: 400px;
-  height: 300px;
+  width: 340px;
+  height: 222px;
   background-image: url('../images/neomatix/camera_calibration.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  float: right;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
 
 
 .grid-item.corner_detection {
-  width: 400px;
-  height: 200px;
+  width: 340px;
+  height: 170px;
   background-image: url('../images/neomatix/corner_detection.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  float: right;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
 
 .grid-item.nn_results {
-  width: 400px;
+  width: 340px;
   height: 200px;
   background-image: url('../images/neomatix/nn_results.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  float: left;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
 
 .grid-item.office_morning_pic {
-  width: 400px;
-  height: 200px;
+  width: 340px;
+  height: 172px;
   background-image: url('../images/neomatix/office_morning_pic.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
-  float: left;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
 
 .grid-item.reactr_module {
-  width: 400px;
-  height: 300px;
+  width: 340px;
+  height: 450px;
   background-image: url('../images/actr/reactr_module.png') !important;
   background-size: 100%;
   background-repeat: no-repeat;
-
-  float: left;
-  border-radius: 5px;
+  float: none;
+  margin: 20px;
 }
+
+.grid-item.redapple {
+  width: 340px;
+  height: 330px;
+  background-image: url('../images/redapple/red_apple.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 20px;
+}
+
+.grid-item.sales_pricing {
+  width: 340px;
+  height: 200px;
+  background-image: url('../images/redapple/sales_august-2017.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 20px;
+}
+
+.grid-item.edmel_1 {
+  width: 340px;
+  height: 220px;
+  background-image: url('../images/webdev/edmel_1.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 20px;
+}
+
+.grid-item.edmel_2 {
+  width: 340px;
+  height: 225px;
+  background-image: url('../images/webdev/edmel_2.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 20px;
+}
+
+.grid-item.sam_moses {
+  width: 340px;
+  height: 212px;
+  background-image: url('../images/webdev/sam_moses.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 20px;
+}
+
+.grid-item.trampoline {
+  width: 340px;
+  height: 210px;
+  background-image: url('../images/webdev/trampoline.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 20px;
+}
+
+.grid-item.actr_simulation_2 {
+  width: 340px;
+  height: 160px;
+  background-image: url('../images/actr/actr_simulation_2.png') !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 20px;
+}
+
 
 
 /*.grid-item--width2 { width:  40%; }
