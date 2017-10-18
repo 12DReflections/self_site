@@ -961,17 +961,19 @@ input[type="submit"]:hover{
 		font-size: 15px;
 	}
 }
+/* Phone Size Media Query */
 @media (max-width:480px) {
 	.b-part1, .b-part2, .b-part3, .b-part4 {
-		width: 50%;
+		width: 100%;
 		float: left;
 		height: 163px;
+		margin-top: 40px;
 	}
-	.b-part1,.b-part2{
+	.b-part1{
 		margin-bottom:30px;
 	}
 	.b-part2 h3, .b-part3 h3, .b-part4 h3 {
-		margin-bottom:27px;
+		margin-bottom:0px;
 	}
 	.about img {
 		width: 21%;
@@ -1247,15 +1249,19 @@ body { font-family: sans-serif; }
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
 } 
-.grid-item:hover {
-  transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2); /* IE 9 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
-   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */ 
-} 
+
+@media only screen and (min-width: 1023px) {
+
+	.grid-item:hover {
+	  transform: scale(1.2);
+	  -moz-transform: scale(1.2);
+	  -webkit-transform: scale(1.2);
+	  -o-transform: scale(1.2);
+	  -ms-transform: scale(1.2); /* IE 9 */
+	  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+	   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */ 
+	} 
+}
 
 
 /*.grid-item {
@@ -1426,9 +1432,29 @@ body { font-family: sans-serif; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
 */
+@media only screen and (min-width: 1025px) {
+	.bigger {
+	    height: 600px !important;
+	    width: 600px !important;
+	    z-index: 9999;
+	}
+    } 
 
-.bigger {
-    height: 600px !important;
-    width: 600px !important;
-    z-index: 9999;
+./*-- projects --*/
+.project_images {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 533px;
+    position: relative;
+    padding-top: 12em;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .grid-item{
+        float:none !important;
+        display:table !important;
+        margin: 0 auto !important;
+    }
+    }
